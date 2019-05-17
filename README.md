@@ -72,6 +72,10 @@ WHERE f.nome = t.strada;
 
 ![img](./img/img_02.png)
 
+Video DEMO:
+
+[![video](https://youtu.be/5u5GpQUxkA0/0.jpg)](https://youtu.be/5u5GpQUxkA0 "Video DEMO LRS")
+
 ### Prova tu
 
 GeoPackage e Progetto QGIS -> scarica [qui](https://github.com/pigreco/LRS_with_virtual_layer_QGIS/raw/master/risorse/risorse.zip)
