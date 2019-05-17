@@ -69,7 +69,7 @@ WHERE f.nome = t.strada;
 
 ![img](./img/vl_img_02.png)
 
-1. Linea **intervento**
+3. Linea **intervento**
 
 ```sql
 SELECT f.fid,t.intervento,st_Line_Substring (f.geometry,t.inizio/st_length(f.geometry) ,t.fine/st_length(f.geometry)) AS geom /*linestring:32632*/
