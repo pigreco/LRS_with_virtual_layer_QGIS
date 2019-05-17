@@ -30,7 +30,7 @@ Immagioniamo di dover gestire gli assi stradali principali del centro storico di
 
 ### Virtual Layer
 
-Un tipo speciale di vettore che consente di definire un layer come il risultato di un’interrogazione avanzata, utilizzando il linguaggio SQL su tutti i vettori che QGIS è in grado di aprire. Questi layer sono chiamati layer virtuali: non caricano dati propri e possono essere visti come una visualizzazione di altri layer. [Doc QGIS]()
+Un tipo speciale di vettore che consente di definire un layer come il risultato di un’interrogazione avanzata, utilizzando il linguaggio SQL su tutti i vettori che QGIS è in grado di aprire. Questi layer sono chiamati layer virtuali: non caricano dati propri e possono essere visti come una visualizzazione di altri layer. [Doc QGIS](https://docs.qgis.org/2.14/it/docs/user_manual/working_with_vector/virtual_layers.html)
 
 ecco i tre Virtual Layer necessari per questo esempio:
 
@@ -74,4 +74,10 @@ WHERE f.nome = t.strada;
 
 ### Prova tu
 
-GeoPackage e Progetto QGIS -> scarica [qui](./risorse/risorse.zip)
+GeoPackage e Progetto QGIS -> scarica [qui](https://github.com/pigreco/LRS_with_virtual_layer_QGIS/raw/master/risorse/risorse.zip)
+
+### Riferimenti
+
+- [QGIS](https://qgis.org/it/site/)
+- [Virtual Layer](https://docs.qgis.org/2.14/it/docs/user_manual/working_with_vector/virtual_layers.html)
+- [Funzioni SpatiaLite](http://www.gaia-gis.it/gaia-sins/spatialite-sql-4.2.0.html)
