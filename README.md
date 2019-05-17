@@ -2,6 +2,21 @@
 
 Linear Reference System (LRS) utilizzando i Virtual Layer di QGIS
 
+<!-- TOC -->
+
+- [LRS con virtual layer in QGIS](#lrs-con-virtual-layer-in-qgis)
+  - [Che cosa è LRS](#che-cosa-%C3%A8-lrs)
+  - [LRS a cosa serve](#lrs-a-cosa-serve)
+  - [Esempio d'uso](#esempio-duso)
+    - [Dati](#dati)
+    - [Virtual Layer](#virtual-layer)
+    - [Maschera inserimento dati](#maschera-inserimento-dati)
+    - [Risultato](#risultato)
+  - [Prova tu](#prova-tu)
+  - [Riferimenti](#riferimenti)
+
+<!-- /TOC -->
+
 ## Che cosa è LRS
 
 Il *riferimento lineare* (chiamato anche sistema di riferimento lineare o LRS ), è un metodo di riferimento spaziale in ingegneria e costruzione, in cui le posizioni delle caratteristiche fisiche lungo un elemento lineare sono descritte in termini di misure da un punto fisso, come una pietra miliare lungo una strada. Ogni funzione è localizzata da un punto (ad esempio un cartello) o da una linea (ad esempio una zona di divieto di passaggio). Se viene modificato un segmento dell'elemento lineare o della rotta, è necessario aggiornare solo le posizioni sul segmento modificato. [WikiPedia](https://en.wikipedia.org/wiki/Linear_referencing)
@@ -76,11 +91,13 @@ Video DEMO:
 
 [![video](https://img.youtube.com/vi/5u5GpQUxkA0/0.jpg)](https://youtu.be/5u5GpQUxkA0 "Video DEMO LRS")
 
-### Prova tu
+## Prova tu
 
 GeoPackage e Progetto QGIS -> scarica [qui](https://github.com/pigreco/LRS_with_virtual_layer_QGIS/raw/master/risorse/risorse.zip)
 
-### Riferimenti
+[Torna su](#lrs-con-virtual-layer-in-qgis)
+
+## Riferimenti
 
 - [QGIS](https://qgis.org/it/site/)
 - [Virtual Layer](https://docs.qgis.org/2.14/it/docs/user_manual/working_with_vector/virtual_layers.html)
