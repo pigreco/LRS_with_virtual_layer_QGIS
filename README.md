@@ -74,7 +74,7 @@ WHERE f.nome = t.strada;
 
 Video DEMO:
 
-[![video](https://youtu.be/5u5GpQUxkA0/0.jpg)](https://youtu.be/5u5GpQUxkA0 "Video DEMO LRS")
+[![video](https://img.youtube.com/vi/5u5GpQUxkA0/0.jpg)](https://youtu.be/5u5GpQUxkA0 "Video DEMO LRS")
 
 ### Prova tu
 
