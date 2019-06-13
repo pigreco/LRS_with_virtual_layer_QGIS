@@ -2,6 +2,8 @@
 
 Linear Reference System (LRS) utilizzando i Virtual Layer di QGIS
 
+©2019 CC-BY-SA 4.0 Salvatore Fiandaca pigrecoinfinito@gmail.com
+
 ---
 
 ### Che cosa è LRS
@@ -122,5 +124,3 @@ GeoPackage e Progetto QGIS -> scarica [qui](https://github.com/pigreco/LRS_with_
 - [Virtual Layer](https://docs.qgis.org/2.14/it/docs/user_manual/working_with_vector/virtual_layers.html)
 - [Funzioni SpatiaLite](http://www.gaia-gis.it/gaia-sins/spatialite-sql-4.2.0.html)
 - [Virtual Layer e spatial Index](https://pigrecoinfinito.wordpress.com/2019/02/16/qgis-virtual-layer-e-spatialindex/)
-
----
