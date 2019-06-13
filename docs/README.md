@@ -98,7 +98,7 @@ WHERE f.nome = t.strada;
 
 ### Risultato
 
-<p align="center"> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="./doc/img_02.png" width="600" title="#HfcQGIS"></a> </p>
+<p align="center"> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="./doc/img_02.png" width="800" title="#HfcQGIS"></a> </p>
 
 ---
 
