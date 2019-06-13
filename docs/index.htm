@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://revealjs.com/css/reveal.css">
+        <link rel="stylesheet" href="https://revealjs.com/css/theme/black.css">
+        <link rel="stylesheet" href="https://revealjs.com/lib/css/zenburn.css">
+        <script>
+		  if( window.location.search.match( /print-pdf/gi ) ) {
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = 'pdf.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		  }
+		</script>
+        <style>
+
+            .reveal .slides {
+                text-align: left;
+            }
+            .reveal .slides section>* {
+                margin-left: 0;
+                margin-right: 0;
+            }
+
+            .reveal h3,p,li{
+                line-height: 1.2 !important;
+            }
+
+            .reveal section {
+                font-weight: bold !important;
+                font-size: 0.8em !important;
+                line-height: 1.2 !important;
+            }
+
+            .reveal section pre code {
+                font-size: 0.8em !important;
+                line-height: 1.2 !important;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section data-markdown="README.md" data-separator="^\n---\n$" data-separator-vertical="^\n--\n$"></section>
+            </div>
+        </div>
+        <script src="https://revealjs.com/js/reveal.js"></script>
+        <script src="https://revealjs.com/plugin/markdown/marked.js"></script>
+        <script src="https://revealjs.com/plugin/markdown/markdown.js"></script>
+        <script src="https://revealjs.com/plugin/highlight/highlight.js"></script>
+        <script src="https://revealjs.com/plugin/search/search.js"></script>
+        <script src="https://revealjs.com/plugin/search/zoom.js"></script>
+        <script src="https://revealjs.com/plugin/search/notes.js"></script>
+
+        <script>
+
+            Reveal.initialize({
+                margin: 0,
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+                transition: 'concave', // default/cube/page/concave/zoom/linear/fade/none
+                backgroundTransition: 'concave', // default/none/slide/concave/convex/zoom
+                viewDistance: 6,
+                // parallaxBackgroundImage: 'https://wallpaperscraft.com/image/dark_spots_texture_background_50355_3840x1200.jpg', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'" 'http://betheme.muffingroupsc.netdna-cdn.com/be/parallax/wp-content/uploads/2015/01/home-parallax-section-works.jpg
+                // parallaxBackgroundSize: '5200px 2000px' // CSS syntax, e.g. "2100px 900px"
+            });
+
+            hljs.initHighlightingOnLoad();
+        </script>
+    </body>
+</html>
