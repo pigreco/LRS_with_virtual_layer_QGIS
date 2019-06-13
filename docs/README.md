@@ -2,7 +2,7 @@
 theme : "black"
 transition: "zoom"
 highlightTheme: "darkula"
-logoImg: "./doc/logo_evolution.png"
+logoImg: "../doc/logo_evolution.png"
 slideNumber: true
 ---
 
@@ -28,7 +28,7 @@ Il riferimento lineare è adatto per la gestione di dati relativi a caratteristi
 
 Immagioniamo di dover gestire gli assi stradali principali del centro storico di Palermo e di tenere aggiornata la manutenzione usando QGIS.
 
-<p align="center"> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="./doc/img_01.png" width="400" title="#HfcQGIS"></a>
+<p align="center"> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="../doc/img_01.png" width="400" title="#HfcQGIS"></a>
 </p>
 
 ---
@@ -37,13 +37,17 @@ Immagioniamo di dover gestire gli assi stradali principali del centro storico di
 
 1. creo un **GeoPackage** con:
 
+--
+
 2. tabella manutenzione (alfanumerica) `lrs_manutenzione`
 
-<p align="center"> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="./doc/tbl_img_01.png" width="400" title="#HfcQGIS"></a> </p>
+<p align="center"> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="../doc/tbl_img_01.png" width="400" title="#HfcQGIS"></a> </p>
+
+--
 
 3. geo-tabella con gli assi stradali `strade_centro_storico`
 
-<p align="center"> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="./doc/tbl_img_02.png" width="400" title="#HfcQGIS"></a> </p>
+<p align="center"> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="../doc/tbl_img_02.png" width="400" title="#HfcQGIS"></a> </p>
 
 ---
 
@@ -67,7 +71,7 @@ FROM strade_centro_storico f, lrs_manutenzione t
 WHERE f.nome = t.strada;
 ```
 
-<p align="center"> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="./doc/vl_img_01.png" width="400" title="#HfcQGIS"></a> </p>
+<p align="center"> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="../doc/vl_img_01.png" width="400" title="#HfcQGIS"></a> </p>
 
 --
 
@@ -83,7 +87,7 @@ FROM strade_centro_storico f, lrs_manutenzione t
 WHERE f.nome = t.strada;
 ```
 
-<p align="center"> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="./doc/vl_img_02.png" width="400" title="#HfcQGIS"></a> </p>
+<p align="center"> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="../doc/vl_img_02.png" width="400" title="#HfcQGIS"></a> </p>
 
 --
 
@@ -100,19 +104,19 @@ FROM strade_centro_storico f, lrs_manutenzione t
 WHERE f.nome = t.strada;
 ```
 
-<p align="center"> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="./doc/vl_img_03.png" width="400" title="#HfcQGIS"></a> </p>
+<p align="center"> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="../doc/vl_img_03.png" width="400" title="#HfcQGIS"></a> </p>
 
 ---
 
 ### Maschera inserimento dati
 
-<p align="center"> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="./doc/msc_img_01.png" width="400" title="#HfcQGIS"></a> </p>
+<p align="center"> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="../doc/msc_img_01.png" width="400" title="#HfcQGIS"></a> </p>
 
 ---
 
 ### Risultato
 
-<p align="center"> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="./doc/img_02.png" width="400" title="#HfcQGIS"></a> </p>
+<p align="center"> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="../doc/img_02.png" width="400" title="#HfcQGIS"></a> </p>
 
 ---
 
