@@ -103,4 +103,3 @@ GeoPackage e Progetto QGIS -> scarica [qui](https://github.com/pigreco/LRS_with_
 - [Virtual Layer](https://docs.qgis.org/2.14/it/docs/user_manual/working_with_vector/virtual_layers.html)
 - [Funzioni SpatiaLite](http://www.gaia-gis.it/gaia-sins/spatialite-sql-4.2.0.html)
 - [Virtual Layer e spatial Index](https://pigrecoinfinito.wordpress.com/2019/02/16/qgis-virtual-layer-e-spatialindex/)
-- [Virtual Layer e spatial Index](https://pigrecoinfinito.wordpress.com/2019/02/16/qgis-virtual-layer-e-spatialindex/)
