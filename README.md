@@ -1,11 +1,3 @@
----
-theme : "black"
-transition: "zoom"
-highlightTheme: "darkula"
-logoImg: "./doc/logo_evolution.png"
-slideNumber: true
----
-
 ### LRS con virtual layer in QGIS
 
 Linear Reference System (LRS) utilizzando i Virtual Layer di QGIS
