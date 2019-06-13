@@ -1,6 +1,8 @@
 # LRS con virtual layer in QGIS
 
-Linear Reference System (LRS) utilizzando i Virtual Layer di QGIS
+Linear Reference System (LRS) utilizzando i Virtual Layer di **QGIS**
+
+©2019 CC-BY-SA 4.0 _Salvatore Fiandaca_ pigrecoinfinito@gmail.com
 
 <!-- TOC -->
 
