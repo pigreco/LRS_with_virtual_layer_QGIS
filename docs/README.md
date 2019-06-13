@@ -62,7 +62,7 @@ FROM strade_centro_storico f, lrs_manutenzione t
 WHERE f.nome = t.strada;
 ```
 
-<p align="center"> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="./doc/vl_img_01.png" width="500" title="#HfcQGIS"></a> </p>
+<p align="center"> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="./doc/vl_img_01.png" width="800" title="#HfcQGIS"></a> </p>
 
 --
 
@@ -75,7 +75,7 @@ FROM strade_centro_storico f, lrs_manutenzione t
 WHERE f.nome = t.strada;
 ```
 
-<p align="center"> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="./doc/vl_img_02.png" width="500" title="#HfcQGIS"></a> </p>
+<p align="center"> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="./doc/vl_img_02.png" width="800" title="#HfcQGIS"></a> </p>
 
 --
 
@@ -88,7 +88,7 @@ FROM strade_centro_storico f, lrs_manutenzione t
 WHERE f.nome = t.strada;
 ```
 
-<p align="center"> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="./doc/vl_img_03.png" width="500" title="#HfcQGIS"></a> </p>
+<p align="center"> <a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="./doc/vl_img_03.png" width="800" title="#HfcQGIS"></a> </p>
 
 ---
 
